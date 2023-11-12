@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="mb-4" *ngIf="comments">
+        <h4>Please tell About Yourself</h4>
+        <p>{{comments}}</p>
+    </div>
+
+    <div class="mb-4" *ngIf="selectedLanguage">
+    <h4>Please tell About Yourself</h4>
+    <p>{{selectedLanguage}}</p>
+    </div>
+
+    <button type="button" class="btn btn-link" routerLink="/">Back To FormBuilder</button>
+</div>
